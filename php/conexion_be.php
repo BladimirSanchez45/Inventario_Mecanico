@@ -1,7 +1,7 @@
 <?php
 
 
-    $conexion = mysqli_connect("localhost:3310","root","","login_register_db");
+    $conexion = mysqli_connect("inventory-database.ca0ugmpur7yn.us-east-2.rds.amazonaws.com:3306","admin","tecmi1234","login_register_db");
 
     /*
     if($conexion){
