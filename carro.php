@@ -60,19 +60,19 @@
 <body>
     <form action="">
         <p>Modelo del carro</p>
-        <input type="text" id="text" class="field"> <br/>
+        <input type="text" id="model" class="field"> <br/>
 
         <p>Numero de Serie del carro</p>
-        <input type="number" id="number" class="field"> <br/>
+        <input type="number" id="serial" class="field"> <br/>
 
         <p>Año del carro</p>
-        <input type="number" id="number" class="field"> <br/>
+        <input type="number" id="year" class="field"> <br/>
 
-        <p>CURP</p>
-        <input type="text" id="text" class="field"> <br/>
+        <p>Placas</p>
+        <input type="text" id="plates" class="field"> <br/>
 
         <p>Problema</p>
-        <input type="text" id="text" class="field"> <br/>
+        <input type="text" id="problem" class="field"> <br/>
         
         <p>¿Quieres agregar un Cliente?</p>
         <label>
@@ -87,16 +87,16 @@
         <h2>Preguntas adicionales:</h2> <br/>
 
         <p>Nombre</p>
-        <input type="text" id="text" class="field"> <br/>
+        <input type="text" id="name" class="field"> <br/>
 
         <p>Numero Telefonico</p>
-        <input type="tel" id="tel" class="field"> <br/>
+        <input type="tel" id="phone" class="field"> <br/>
 
         <p>Correo Electronico</p>
         <input type="email" id="email" class="field"> <br/>
 
         <p>CURP</p>
-        <input type="text" id="text" class="field"> <br/>
+        <input type="text" id="curp" class="field"> <br/>
         </div>
 
         <p class = "center-content">
