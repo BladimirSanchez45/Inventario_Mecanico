@@ -25,7 +25,7 @@
         
         form{
             background-color: white;
-            border-radius: 3px;
+            border-radius: 10px;
             color: #999;
             font-size: 0.8em;
             padding: 10px;

@@ -20,7 +20,7 @@
 
 body {
 
-    background-image: url('../images/4k-porsche-911-gt2-rs-wallpaper-preview.jpg'); 
+    background-image: url('../images/Fondo-Inicio.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -35,7 +35,7 @@ body {
     max-width: 150px;
     height: 100vh;
     background: var(--bg-menu);
-    padding: 20px;
+    padding: 5px;
     transition: max-width .3s ease;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .top-menu .logo img {
-    width: 60px;
+    width: 70px;
     transition: width .3s ease;
 }
 
@@ -156,7 +156,7 @@ body {
 }
 
 .enlace a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
