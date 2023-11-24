@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agendar Cita</title>
+    <title>Nuevo carro</title>
     <link rel="stylesheet" href='/assets/css/boton.css'>
     <style>
         body{
@@ -58,21 +58,30 @@
     </style>
 </head>
 <body>
-    <form action="">
-        <p>Modelo del carro</p>
-        <input type="text" id="text" class="field"> <br/>
+    <form action="php/registro_auto_be.php" method="POST" class="formulario__register">
+        <p>Placas</p>
+        <input type="text" id="plates" class="field" name = "plates"> <br/>
 
-        <p>Numero de Serie del carro</p>
-        <input type="number" id="number" class="field"> <br/>
+        <p>Marca del carro</p>
+        <input type="text" id="brand" class="field" name = "brand"> <br/>
+
+        <p>Modelo del carro</p>
+        <input type="text" id="model" class="field" name = "model"> <br/>
 
         <p>Año del carro</p>
-        <input type="number" id="number" class="field"> <br/>
+        <input type="text" id="year" class="field" name = "year"> <br/>
 
-        <p>CURP</p>
-        <input type="text" id="text" class="field"> <br/>
+        <p>Color del carro</p>
+        <input type="text" id="color" class="field" name = "color"> <br/>
 
-        <p>Problema</p>
-        <input type="text" id="text" class="field"> <br/>
+        <p>Inventario</p>
+        <input type="text" id="inventary" class="field" name = "inventary"> <br/>
+
+        <p>Numero de serie del carro</p>
+        <input type="text" id="numserie" class="field" name = "numserie"> <br/>
+
+        <p>Cliente existente</p>
+        <input type="text" id="client" class="field" name = "clientexist"> <br/>
         
         <p>¿Quieres agregar un Cliente?</p>
         <label>
@@ -86,18 +95,17 @@
         <div id="preguntasAdicionales" style="display:none;">
         <h2>Preguntas adicionales:</h2> <br/>
 
-        <p>Nombre</p>
-        <input type="text" id="text" class="field"> <br/>
+        <p>Ingresa tu nombre</p>
+        <input type="text" id="name" class="field"> <br/>
 
-        <p>Numero Telefonico</p>
+        <p>Direccion</p>
+        <input type="text" id="adress" class="field"> <br/>
+
+        <p>Telefono</p>
         <input type="tel" id="tel" class="field"> <br/>
 
         <p>Correo Electronico</p>
         <input type="email" id="email" class="field"> <br/>
-
-        <p>CURP</p>
-        <input type="text" id="text" class="field"> <br/>
-        </div>
 
         <p class = "center-content">
             <input type="submit" class="btn btn-green" value="Agregar Carro">

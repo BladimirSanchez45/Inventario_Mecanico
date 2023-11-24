@@ -60,32 +60,32 @@
 </head>
 <body>
     <form action="">
-        <p>Ingresa tu nombre</p>
-        <input type="text" id="text" class="field"> <br/>
+        <p>Fecha de entrada del carro</p>
+        <input type="date" id="datein" class="field" name = "datein"> <br/>
 
-        <p>Numero Telefonico</p>
-        <input type="tel" id="tel" class="field"> <br/>
+        <p>Fecha Estimada de salida</p>
+        <input type="date" id="dateout" class="field" name = "dateout"> <br/>
 
-        <p>Correo Electronico</p>
-        <input type="email" id="email" class="field"> <br/>
+        <p>Hora de entrada</p>
+        <input type="time" id="hour" class="field"  name = "timein"> <br/>
 
-        <p>Modelo del Carro</p>
-        <input type="text" id="text" class="field"> <br/>
+        <p>Sintomas del auto (por el cliente)</p>
+        <input type="text" id="problemclient" class="field"  name = "sintoms"> <br/>
 
-        <p>Numero de Serie del carro</p>
-        <input type="text" id="text" class="field"> <br/>
+        <p>Diagnostico al ser revisado (por el mecanico)</p>
+        <input type="text" id="problemmecanic" class="field"  name = "diagnostic"> <br/>
 
-        <p>Año del carro</p>
-        <input type="number" id="number" class="field"> <br/>
+        <p>Servicios</p>
+        <input type="number" id="service" class="field"  name = "service"> <br/>
 
-        <p>Problema</p>
-        <input type="text" id="text" class="field"> <br/>
+        <p>Estatus del auto (Detalles esteticos u informacion)</p>
+        <input type="text" id="status" class="field"  name = "status"> <br/>
 
-        <p>Fecha de Cita</p>
-        <input type="date" id="date" class="field"> <br/>
+        <p>Servicios Cometidos</p>
+        <input type="text" id="servicemade" class="field"  name = "cometidos"> <br/>
 
-        <p>Hora de la cita</p>
-        <input type="time" id="time" class="field"> <br/>
+        <p>Importe</p>
+        <input type="money" id="money" class="field"  name = "import"> <br/>
 
         <p class = "center-content">
             <input type="submit" class="btn btn-green" value="Agendar Cita">
