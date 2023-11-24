@@ -59,7 +59,7 @@
     </style>
 </head>
 <body>
-    <form action="">
+    <form action="php/registro_servicio_be.php" method="POST" class="formulario_citas">
         <p>Fecha de entrada del carro</p>
         <input type="date" id="datein" class="field" name = "datein"> <br/>
 

@@ -58,7 +58,7 @@
     </style>
 </head>
 <body>
-    <form action="php/registro_clientes_be" method="POST" class="formulario__register">
+    <form action="php/registro_clientes_be.php" method="POST" class="formulario__register">
         <p>Ingresa tu nombre</p>
         <input type="text" id="name" class="field" name = "cname"> <br/>
 
@@ -70,6 +70,10 @@
 
         <p>Correo Electronico</p>
         <input type="email" id="email" class="field"  name = "cemail"> <br/>
+
+        <p class = "center-content">
+            <input type="submit" class="btn btn-green" value="Agregar cliente">
+        </p>
 
         <p>¿Quieres agregar un carro?</p>
         <label>
@@ -106,7 +110,7 @@
         <input type="text" id="numserie" class="field" name = "numserie"> <br/>
 
         <p class = "center-content">
-            <input type="submit" class="btn btn-green" value="Agregar cliente">
+            <input type="submit" class="btn btn-green" value="Agregar auto">
         </p>
 
 
