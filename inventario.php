@@ -1,6 +1,6 @@
 <?php
     include('bienvenida.php');
-    $clientes = "SELECT * FROM clientes";
+    $inventarios = "SELECT * FROM inventarios";
 
 ?>
 <!DOCTYPE html>

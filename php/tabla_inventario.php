@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla de Usuarios</title>
+    <title>Tabla de Inventario</title>
     <link rel="stylesheet" href="../assets/css/usuariosfinal.css">
 </head>
 <body>
@@ -31,25 +31,25 @@
     
     <div class="update-form">
     <h2>Actualizar Producto</h2>
-    <form action="actualizar.php" method="post">
-        <label for="nombre_actualizar">Nombre del Producto a Actualizar:</label>
-        <input type="text" name="nombre_actualizar" required>
-        <label for="nuevo_nombre">Nuevo Producto:</label>
-        <input type="text" name="nuevo_nombre">
-        <label for="nueva_direccion">Nueva Cantidad:</label>
-        <input type="text" name="nueva_direccion">
-        <label for="nuevo_telefono">Nuevo Precio de Compra :</label>
-        <input type="text" name="nuevo_telefono">
-        <label for="nuevo_email">Nuevo Precio de Venta:</label>
-        <input type="email" name="nuevo_email">
+    <form action="actualizar_inv.php" method="post">
+        <label for="producto_actualizar">Nombre del Producto a Actualizar:</label>
+        <input type="text" name="producto_actualizar" required>
+        <label for="nuevo_producto">Nuevo Producto:</label>
+        <input type="text" name="nuevo_producto">
+        <label for="nueva_cantidad">Nueva Cantidad:</label>
+        <input type="text" name="nueva_cantidad">
+        <label for="nuevo_comprado">Nuevo Precio de Compra :</label>
+        <input type="text" name="nuevo_comprado">
+        <label for="nuevo_venta">Nuevo Precio de Venta:</label>
+        <input type="text" name="nuevo_venta">
         <button type="submit">Actualizar Producto</button>
     </form>
 
     <div class="delete-form">
     <h2>Eliminar Producto</h2>
-    <form action="eliminar.php" method="post">
-        <label for="nombre_eliminar">Nombre del Producto a Eliminar:</label>
-        <input type="text" name="nombre_eliminar" required>
+    <form action="eliminar_inv.php" method="post">
+        <label for="nombre_eliminarinv">Nombre del Producto a Eliminar:</label>
+        <input type="text" name="nombre_eliminarinv" required>
         <button type="submit">Eliminar Producto</button>
     </form>
 </div>
