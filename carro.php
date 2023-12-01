@@ -59,12 +59,30 @@
     </style>
 </head>
 <body>
+    <div class = "button-tableuser"><button><a href="./php/tabla_de_carro.php">Ver lista de carros</a></button></div>
     <form action="php/registro_auto_be.php" method="POST" class="formulario__register">
         <p>Placas</p>
         <input type="text" id="plates" class="field" name = "plates"> <br/>
 
-        <p>Marca del carro</p>
-        <input type="text" id="brand" class="field" name = "brand"> <br/>
+        <p>Marca del carro</p>  
+        <select name="brands" id="brands">
+            <option value="1">Nissan</option>
+            <option value="2">Mercedes</option>
+            <option value="3">Mazda</option>
+            <option value="4">Toyota</option>
+            <option value="5">Dodge</option>
+            <option value="6">Ford</option>
+            <option value="7">BMW</option>
+            <option value="8">Honda</option>
+            <option value="9">Hyundai</option>
+            <option value="10">Kia</option>
+            <option value="11">Chevrolet</option>
+            <option value="12">Fiat</option>
+            <option value="13">Jeep</option>
+
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">  
 
         <p>Modelo del carro</p>
         <input type="text" id="model" class="field" name = "model"> <br/>
