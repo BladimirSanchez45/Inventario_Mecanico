@@ -13,7 +13,7 @@
 
 
 
-    $query = "INSERT INTO autos(Fecha_Entrada,Fecha_Salida,Hora,Importe,Sintomas,Diagnostico,Servicios,Estatus)VALUES('$service_datein','$service_dateout','$service_timein','$service_import','$service_sintoms','$service_diagnostic','$service_service','$service_status')";
+    $query = "INSERT INTO servicios(Fecha_Entrada,Fecha_Salida,Hora,idAuto,Importe,Sintomas,Diagnostico,Servicios,Estatus,idCometidos)VALUES('$service_datein','$service_dateout','$service_timein',1,'$service_import','$service_sintoms','$service_diagnostic','$service_service','$service_status',1)";
 
 
     $ejecutar = mysqli_query($conexion, $query);
@@ -22,7 +22,7 @@
         echo '
         
         <script>
-            alert("Auto Almacenado Exitosamente");
+            alert("Cita Almacenada Exitosamente");
             window.location = "../index.php";
         </script>
 
@@ -30,7 +30,7 @@
     }else{
         echo '
         <script>
-            alert("Intentalo de nuevo, Auto no almacenado");
+            alert("Intentalo de nuevo, Cita no almacenada");
             window.location = "../index.php";
         </script>
 

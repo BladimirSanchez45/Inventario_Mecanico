@@ -2,13 +2,14 @@
     include('bienvenida.php');
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuevo carro</title>
-    <link rel="stylesheet" href='/assets/css/boton.css'>
+    <link rel="stylesheet" href='../assets/css/boton.css'>
     <style>
         body{
             margin: 0;
@@ -111,7 +112,6 @@
             <input type="submit" class="btn btn-green" value="Agregar Carro">
         </p>
 
-
     </form>
 
     <script>
@@ -125,6 +125,7 @@
       preguntasAdicionales.style.display = 'none';
     }
   </script>
+
 
 </body>
 </html>

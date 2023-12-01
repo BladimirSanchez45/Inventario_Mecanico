@@ -1,5 +1,6 @@
 <?php
     include('bienvenida.php');
+    $clientes = "SELECT * FROM clientes";
 
 ?>
 <!DOCTYPE html>
@@ -8,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agregar Usuarios</title>
-    <link rel="stylesheet" href='/assets/css/boton.css'>
+    <link rel="stylesheet" href='./assets/css/boton.css'>
     <style>
         body{
             margin: 0;
@@ -55,9 +56,24 @@
         .center-content{
             text-align: center;
         }
+
+        .button-tableuser {
+            background-color: #3498db;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        align-items: center;
+        }
+
+        
     </style>
 </head>
 <body>
+    <div class = "button-tableuser"><button><a href="./php/tabla_de_usuarios.php">Ver lista de usuarios</a></button></div>
     <form action="php/registro_clientes_be.php" method="POST" class="formulario__register">
         <p>Ingresa tu nombre</p>
         <input type="text" id="name" class="field" name = "cname"> <br/>
@@ -114,6 +130,7 @@
         </p>
 
 
+
     </form>
 
     <script>
@@ -127,6 +144,5 @@
       preguntasAdicionales.style.display = 'none';
     }
   </script>
-
 </body>
 </html>

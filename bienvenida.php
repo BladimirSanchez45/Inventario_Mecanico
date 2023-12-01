@@ -56,6 +56,12 @@
             </div>
 
             <div class="enlace">
+                <a href="inventario.php">
+                <i class='bx bx-pencil'></i>
+                <span>Inventario</span>
+            </div>
+
+            <div class="enlace">
                 <a href="php/cerrar_sesion.php">
                 <i class="bx bx-cog"></i>
                 <span>Cerrar Sesion</span>

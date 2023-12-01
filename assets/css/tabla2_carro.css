@@ -1,0 +1,68 @@
+/* Resetear estilos predeterminados */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.search-container {
+    margin: 20px;
+}
+
+.search-container form {
+    display: flex;
+}
+
+.search-container label {
+    margin-right: 10px;
+}
+
+.search-container input {
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.search-container button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+
+.container-table {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Mostrar en columna para dispositivos pequeños */
+}
+
+.table-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.table-header, .table-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    display: inline-block; /* Mostrar en línea */
+}
+
+.table-item {
+    font-weight: normal;
+    margin-right: 10px; /* Espacio entre elementos */
+}
